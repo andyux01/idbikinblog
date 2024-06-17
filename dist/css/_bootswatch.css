@@ -3,3 +3,193 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+.pagination a:hover {
+  text-decoration: none;
+}
+
+.badge.bg-light {
+  color: #212529;
+}
+
+.alert {
+  color: #fff;
+  border: none;
+}
+.alert a,
+.alert .alert-link {
+  color: #fff;
+  text-decoration: underline;
+}
+.alert-primary {
+  background-color: #0d6efd;
+}
+.alert-secondary {
+  background-color: #6c757d;
+}
+.alert-success {
+  background-color: #198754;
+}
+.alert-info {
+  background-color: #0dcaf0;
+}
+.alert-warning {
+  background-color: #ffc107;
+}
+.alert-danger {
+  background-color: #dc3545;
+}
+.alert-light {
+  background-color: #f8f9fa;
+}
+.alert-dark {
+  background-color: #212529;
+}
+.alert-light,
+.alert-light a,
+.alert-light .alert-link {
+  color: #212529;
+}
+
+.modal .btn-close,
+.toast .btn-close,
+.offcanvas .btn-close {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+}
+.btn-secondary {
+  background-color: #6c757d;
+}
+.btn-success {
+  background-color: #198754;
+}
+.btn-info {
+  background-color: #0dcaf0;
+}
+.btn-warning {
+  background-color: #ffc107;
+}
+.btn-danger {
+  background-color: #dc3545;
+}
+.btn-light {
+  background-color: #f8f9fa;
+}
+.btn-dark {
+  background-color: #212529;
+}
+
+.dropdown-menu {
+  font-size: 0.875rem;
+}
+
+.dropdown-header {
+  font-size: 0.875rem;
+}
+
+.blockquote-footer {
+  color: #212529;
+}
+
+.table {
+  font-size: 0.875rem;
+}
+.table .thead-dark th {
+  color: #fff;
+}
+.table a:not(.btn) {
+  color: #fff;
+  text-decoration: underline;
+}
+.table .dropdown-menu a {
+  text-decoration: none;
+}
+.table .text-muted {
+  color: var(--bs-secondary-color);
+}
+
+label,
+.radio label,
+.checkbox label,
+.help-block {
+  font-size: 0.875rem;
+}
+
+.form-floating > label,
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+  color: var(--bs-secondary-color);
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-link:hover,
+.nav-pills .nav-link,
+.nav-pills .nav-link:hover {
+  color: #212529;
+}
+.nav-tabs .nav-link.disabled,
+.nav-pills .nav-link.disabled {
+  color: var(--bs-secondary-color);
+}
+
+.page-link:hover,
+.page-link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.alert {
+  color: #fff;
+  border: none;
+}
+.alert a,
+.alert .alert-link {
+  color: #fff;
+  text-decoration: underline;
+}
+.alert-primary {
+  background-color: #0d6efd;
+}
+.alert-secondary {
+  background-color: #6c757d;
+}
+.alert-success {
+  background-color: #198754;
+}
+.alert-info {
+  background-color: #0dcaf0;
+}
+.alert-warning {
+  background-color: #ffc107;
+}
+.alert-danger {
+  background-color: #dc3545;
+}
+.alert-light {
+  background-color: #f8f9fa;
+}
+.alert-dark {
+  background-color: #212529;
+}
+
+.badge-warning, .badge-info {
+  color: #fff;
+}
+
+.tooltip {
+  --bs-tooltip-bg: var(--bs-tertiary-bg);
+  --bs-tooltip-color: var(--bs-emphasis-color);
+}
+
+.popover-header {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.modal-header, .modal-footer {
+  background-color: rgba(var(--bs-emphasis-color-rgb), 0.075);
+}
