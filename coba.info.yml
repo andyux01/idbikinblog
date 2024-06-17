@@ -1,0 +1,30 @@
+name: coba
+type: theme
+description: ''
+package: Other
+core_version_requirement: ^10
+'base theme': stable9
+version: 1.0.0
+starterkit: true
+ckeditor5-stylesheets:
+  - dist/css/ckeditor.css
+libraries-override:
+  layout_builder/drupal.layout_builder:
+    css:
+      theme:
+        css/layout-builder.css: false
+        css/off-canvas.css: false
+libraries:
+  - coba/global
+components:
+  namespaces:
+    coba:
+      - src/stories/global
+      - src/stories/components
+      - src/templates
+regions:
+  primary_menu: 'Primary Menu'
+  highlighted: Highlighted
+  content: Content
+  footer: Footer
+generator: 'drupalx_theme:1.0'
